@@ -102,6 +102,10 @@ python3 archive.py -b
 
 cd ${checked_out_repo_path}
 
+git checkout $archive_branch
+
+git fetch origin
+
 current_sha="$(git rev-parse origin/${archive_branch})"
 
 if [[ "$current_sha" != "$initial_sha" ]]
