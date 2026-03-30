@@ -17,7 +17,6 @@ The actual work is done in two main libraries:
     lib/populate.py
 """
 
-
 # The workflow (timing for the leanprover Zulip chat, on my slow laptop):
 # - populate_all() builds a json file in `settings.json_directory` for each topic,
 #   containing message data and an index json file mapping streams to their topics.
@@ -55,8 +54,7 @@ try:
     import settings
 except ModuleNotFoundError:
     # TODO: Add better instructions.
-    exit_immediately(
-        """
+    exit_immediately("""
     We can't find settings.py.
 
     Please copy default_settings.py to settings.py
@@ -64,8 +62,7 @@ except ModuleNotFoundError:
 
     For testing, you can often leave the default settings,
     but you will still want to review them first.
-    """
-    )
+    """)
 
 NO_JSON_DIR_ERROR_WRITE = """
 We cannot find a place to write JSON files.

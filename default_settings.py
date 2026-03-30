@@ -83,14 +83,12 @@ else:
     try:
         html_directory = Path(os.getenv("HTML_DIRECTORY", None))
     except TypeError:
-        raise Exception(
-            """
+        raise Exception("""
             You need to set html_directory for prod, and it
             should be a different location than DEBUG mode,
             since files will likely have different urls in
             anchor tags.
-            """
-        )
+            """)
 
 
 """

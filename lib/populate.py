@@ -190,9 +190,7 @@ def populate_incremental(
 
     (It's also possible that you have built the index but modified the configuration
     or moved files in your file system.)
-            """.format(
-            stream_index
-        )
+            """.format(stream_index)
         exit_immediately(error_msg)
 
     f = stream_index.open("r", encoding="utf-8")
