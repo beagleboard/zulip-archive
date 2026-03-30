@@ -1,5 +1,5 @@
 #!/bin/bash
-set -e
+set -ex
 
 zulip_organization_url=$1
 zulip_bot_email=$2
@@ -101,6 +101,8 @@ fi
 python3 archive.py -b
 
 cd ${checked_out_repo_path}
+
+git remote update
 
 current_sha="$(git rev-parse origin/${archive_branch})"
 
