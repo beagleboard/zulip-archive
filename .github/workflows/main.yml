@@ -12,7 +12,7 @@ jobs:
       uses: actions/checkout@v3
     - name: Run archive
       id: archive
-      uses: zulip/zulip-archive@master
+      uses: beagleboard/zulip-archive@main
       with:
         zuliprc: ${{ secrets.ZULIPRC }}
         # Using the GitHub Token that is provided automatically by GitHub Actions
