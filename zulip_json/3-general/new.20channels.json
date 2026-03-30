@@ -1,0 +1,14 @@
+[
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"8\">Jason Kridner</span> created a new channel <a class=\"stream\" data-stream-id=\"4\" href=\"/#narrow/channel/4-Northville\">#Northville</a>.</p>",
+        "id": 14,
+        "sender_full_name": "Notification Bot",
+        "timestamp": 1772805947
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"8\">Jason Kridner</span> created a new channel <a class=\"stream\" data-stream-id=\"5\" href=\"/#narrow/channel/5-Pedagogy\">#Pedagogy</a>.</p>",
+        "id": 44,
+        "sender_full_name": "Notification Bot",
+        "timestamp": 1774706859
+    }
+]

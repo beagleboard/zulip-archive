@@ -1,0 +1,26 @@
+[
+    {
+        "content": "<p><span class=\"user-mention channel-wildcard-mention\" data-user-id=\"*\">@everyone</span> rebooting to add WEB_PUBLIC_STREAMS to try to make it easier for people to join.</p>",
+        "id": 88,
+        "sender_full_name": "Jason Kridner",
+        "timestamp": 1774886652
+    },
+    {
+        "content": "<p><a class=\"stream-topic\" data-stream-id=\"3\" href=\"/#narrow/channel/3-general/topic/channel.20events/with/89\">#general &gt; channel events</a> and <a class=\"stream-topic\" data-stream-id=\"5\" href=\"/#narrow/channel/5-Pedagogy/topic/channel.20events/with/90\">#Pedagogy &gt; channel events</a> are now web-public channels. At least <a class=\"stream-topic\" data-stream-id=\"3\" href=\"/#narrow/channel/3-general/topic/channel.20events/with/89\">#general &gt; channel events</a> should be web-public, so no more walled-garden!!!</p>",
+        "id": 91,
+        "sender_full_name": "Jason Kridner",
+        "timestamp": 1774887527
+    },
+    {
+        "content": "<p>I'm not sure about who is limited to doing uploads.... I don't want just-anybody to be able to do that.</p>",
+        "id": 92,
+        "sender_full_name": "Jason Kridner",
+        "timestamp": 1774887599
+    },
+    {
+        "content": "<p>attempted logger at <a href=\"https://beagleboard.github.io/zulip-archive\">https://beagleboard.github.io/zulip-archive</a></p>",
+        "id": 93,
+        "sender_full_name": "Jason Kridner",
+        "timestamp": 1774900285
+    }
+]

@@ -1,0 +1,20 @@
+[
+    {
+        "content": "<p>To kick off a new conversation, pick a channel in the left sidebar, and click the <code>+</code> button next to its name.</p>",
+        "id": 5,
+        "sender_full_name": "Welcome Bot",
+        "timestamp": 1772805473
+    },
+    {
+        "content": "<p>Label your conversation with a topic. Think about finishing the sentence: “Hey, can we chat about…?”</p>",
+        "id": 6,
+        "sender_full_name": "Welcome Bot",
+        "timestamp": 1772805473
+    },
+    {
+        "content": "<p><span aria-label=\"point right\" class=\"emoji emoji-1f449\" role=\"img\" title=\"point right\">:point_right:</span> Try starting a new conversation in this channel.</p>",
+        "id": 7,
+        "sender_full_name": "Welcome Bot",
+        "timestamp": 1772805473
+    }
+]

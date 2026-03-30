@@ -1,0 +1,62 @@
+[
+    {
+        "content": "<p>Hi all <span aria-label=\"smiley\" class=\"emoji emoji-1f603\" role=\"img\" title=\"smiley\">:smiley:</span></p>\n<p>If you need a little help to get your BattleSnake up and controlling, the following step-summary may help? It's basically a condensed transcript of  the introductory video tutorial:</p>\n<p><strong>BattleSnake (online game)</strong></p>\n<p>1.      Navigate to <a href=\"https://zulip.openbeagle.org/play.battlesnake.com\">play.battlesnake.com</a></p>\n<p>2.      Create a BattleSnake account (you can do so using your GitHub account)</p>\n<p>3.      Setup your BattleSnake account.</p>\n<p><strong>Replit (online IDE)</strong></p>\n<p>4.      Navigate to <a href=\"http://replit.com\">replit.com</a> and Create a Replit account.</p>\n<p>5.      Setup account. Username. Name. Continue with Starter.</p>\n<p><strong>BattleSnake </strong></p>\n<p>6.      Getting Started &gt; Starter Projects &gt;   Choose a starter project<br>\nNote: Python is the most popular language.</p>\n<p><strong>GitHub (Battlesnake Python Starter Project)</strong></p>\n<p>7.      Click on ‘Run on Replit’</p>\n<p>8.      Sign up if you’re not already logged in.</p>\n<p>9.      Click on Remix.</p>\n<p>10.  Provide name and description. Click on ‘Use Framework’</p>\n<p>Replit is going to spin up a new replit for you. Click on ‘Run’</p>\n<p>Note: File tree &gt; Library &gt;  main.py / server.py / readme etc</p>\n<p>11.  Click on ‘+’on top bar to access ‘Advanced’ &gt; Console</p>\n<p>12.  Click on ‘Run’</p>\n<p>13.  Customize your name and give the snake a fun color.</p>\n<p>14.  Refresh or Stop / Start</p>\n<p>15.  Open Developer &gt; Copy Dev <a href=\"http://repl.co\">repl.co</a> URL. This is the URL for your battle snake!</p>\n<p><strong>BattleSnake (creating your own snake)</strong></p>\n<p>16.  Create your own battle snake in the system -  <a href=\"https://play.battlesnake.com/account/battlesnakes\">play.battlesnake.com/account/battlesnakes</a>.</p>\n<p>Follow this link to create a new battle snake.</p>\n<p>17.  Setup with standard engine region. Add the Replit URL (from above), platform etc</p>\n<p>18.  Give your snake a description</p>\n<p>19.  Save your battle snake</p>\n<p>Should see a value to the left of ‘PING’ at top right</p>\n<p><strong>BattleSnake: it's GAME time!</strong></p>\n<p>20.  Click on the Create Game button (left hand side).</p>\n<p>21.  Choose a map.</p>\n<p>22.  My BattleSnakes &gt; Add to game.</p>\n<p>23.  Add a couple of other Bots?</p>\n<p>24.  Click on ‘Start Game’</p>\n<p>25.  Click Play</p>\n<p>Note: Your Python snake has the basics to make them run a little. Now begin the process of making your snake better than random.</p>",
+        "id": 36,
+        "sender_full_name": "Paul Renaud",
+        "timestamp": 1774703064
+    },
+    {
+        "content": "<p><a href=\"https://openbeagle.org/just-kitting/interactor\">https://openbeagle.org/just-kitting/interactor</a> &lt;- did you see this concept for in-person BattleSnake?</p>",
+        "id": 41,
+        "sender_full_name": "Jason Kridner",
+        "timestamp": 1774706368
+    },
+    {
+        "content": "<p>Love it! Love the concept. To be sure....<br>\nEach student programs their own BeagleConnect Zepto using their favourite spice of interface. These Zeptos are realtime linked into a local \"game board\" of sorts, something like a PocketBeagle 2 which interfaces with a web based master BattleSnake board. Students or teachers design a BattleSnake map with additional little bots and bits thrown into the mix, and this serves up tasties as API calls are directed from the Zeptos, via the Beagle board to the BattleSnake challenge. Close?</p>",
+        "id": 48,
+        "sender_full_name": "Paul Renaud",
+        "timestamp": 1774707103
+    },
+    {
+        "content": "<p>exactly. I'm thinking each Zepto will be programmed to respond to I2C accesses as events. The Interactor Controller can provide some info over I2C and then fetch \"direction\" when it is time. Not sure of the best teaching approach. I love what I learned from RAR... not sure how to keep it that open ended while helping teachers learn what they need to know along with the students.</p>",
+        "id": 50,
+        "sender_full_name": "Jason Kridner",
+        "timestamp": 1774707563
+    },
+    {
+        "content": "<p>Sounds great! I like the I2C routing idea, as the Interactor controller can interface with the Zepto \"black boxes\" in a controlled phased manner using their unique ids. Good approach. This should keep Ayush on his toes <span aria-label=\"laughing\" class=\"emoji emoji-1f606\" role=\"img\" title=\"laughing\">:laughing:</span> (assuming he is developing?)</p>",
+        "id": 54,
+        "sender_full_name": "Paul Renaud",
+        "timestamp": 1774708119
+    },
+    {
+        "content": "<p>yeah, you know I’ll be leaning on <span class=\"user-mention\" data-user-id=\"10\">@Ayush Singh</span> ;-)</p>",
+        "id": 58,
+        "sender_full_name": "Jason Kridner",
+        "timestamp": 1774709220
+    },
+    {
+        "content": "<p>I think we can start with a prototype on BeagleBadge, but I need to get him one. He can start with BeaglePlay.</p>",
+        "id": 59,
+        "sender_full_name": "Jason Kridner",
+        "timestamp": 1774709278
+    },
+    {
+        "content": "<p>Sounds really cool. Will be nice for BeagleBadge + Zepto. Although being a black and white display might make identification difficult.</p>",
+        "id": 60,
+        "sender_full_name": "Ayush Singh",
+        "timestamp": 1774710177
+    },
+    {
+        "content": "<p>I was thinking the head of each snake could have a number in it.</p>",
+        "id": 61,
+        "sender_full_name": "Jason Kridner",
+        "timestamp": 1774710334
+    },
+    {
+        "content": "<p>That could work.</p>",
+        "id": 62,
+        "sender_full_name": "Ayush Singh",
+        "timestamp": 1774710380
+    }
+]

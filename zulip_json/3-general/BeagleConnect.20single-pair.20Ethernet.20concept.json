@@ -1,0 +1,20 @@
+[
+    {
+        "content": "<p><a href=\"https://forum.beagleboard.org/t/baochip-on-beagleconnect-2-wire-spe-concept/43819\">https://forum.beagleboard.org/t/baochip-on-beagleconnect-2-wire-spe-concept/43819</a></p>",
+        "id": 24,
+        "sender_full_name": "Jason Kridner",
+        "timestamp": 1774637741
+    },
+    {
+        "content": "<p>I’ve started to talk publicly about my concept to use Baochip in a <br>\nBeagleConnect “SPE” (Single Pair Ethernet). Let me know if you are <br>\ninterested in collaborating on the project. The basic idea is to make a <br>\nBeagleConnect Zepto form-factor board, but to have the JST QWIIC <br>\nconnectors replaced by single-pair Ethernet with power-over-data-line <br>\n(PoDL) in a way that is compatible with BeaglePlay. There would need to <br>\nbe a special cable to go from RJ11 to a 2-pin JST, but it would be nice <br>\nto work with as it is only 2 wires and should go several meters. <br>\n10Base-T1L would go a lot longer, but the 5V power source will limit the<br>\n wire length.</p>",
+        "id": 25,
+        "sender_full_name": "Jason Kridner",
+        "timestamp": 1774637753
+    },
+    {
+        "content": "<p>It seems to also have USB. So we can experiment with design similar to zepto USB.</p>",
+        "id": 34,
+        "sender_full_name": "Ayush Singh",
+        "timestamp": 1774667618
+    }
+]

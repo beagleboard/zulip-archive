@@ -1,0 +1,46 @@
+# action.yml
+name: 'Zulip Archive'
+description: 'Publish Zulip archive in GitHub pages'
+inputs:
+  zulip_organization_url:
+    description: 'URL of Zulip organization'
+    required: true
+  zulip_bot_email:
+    description: 'Email of the Zulip bot'
+    required: true
+  zulip_bot_key:
+    description: 'API key of the Zulip bot'
+    required: true
+  github_personal_access_token:
+    description: 'GitHub personal access token (deprecated)'
+    required: false
+    deprecationMessage: 'Please use `github_token` instead'
+  github_token:
+    description: 'GitHub Token/GitHub Personal Access Token'
+    required: true
+  delete_history:
+    description: 'If enabled, will delete the archive history while keeping the most recent version'
+    required: false
+    default: false
+  archive_branch:
+    description: 'Branch where to commit archive files (should coincide with GH Pages branch)'
+    # legacy
+    required: false
+    default: 'master'
+  zuliprc:
+    description: 'zuliprc of the Zulip bot'
+    required: true
+  site_url:
+    description: 'Base URL for the site. If not configured, this action will try to resolve the base URL as GH pages.'
+    required: false
+runs:
+  using: 'docker'
+  image: 'Dockerfile'
+  args:
+    - ${{ inputs.zulip_organization_url }}
+    - ${{ inputs.zulip_bot_email }}
+    - ${{ inputs.zulip_bot_key }}
+    - ${{ inputs.github_token }}
+    - ${{ inputs.delete_history }}
+    - ${{ inputs.archive_branch }}
+    - ${{ inputs.github_personal_access_token }}

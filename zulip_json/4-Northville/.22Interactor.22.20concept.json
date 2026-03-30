@@ -1,0 +1,32 @@
+[
+    {
+        "content": "<p>Beagle has recently launched a $1 development board with 128KB flash and 16KB RAM about the size of a postage stamp and compatible with 1,500 mikroBUS add-on boards and 100s of QWIIC add-on boards called \"BeagleConnect Zepto\". There is an on-line competitive coding environment called \"BattleSnake\" (<a href=\"https://play.battlesnake.com/\">https://play.battlesnake.com/</a>) that pits multiple snakes against each other where \"code is the controller\". I think putting your code on a Zepto board and bringing it to a system that will \"battle it out\" between multiple users where they cannot control it themselves, but instead have to have written code to handle the various conditions could be very inspirational.</p>\n<p>Of course, I think there is a major personality bias when it comes to creating something that is purely competitive, but this is just to draw a picture for you. The objective could also be collaborative, like creating music or drawing a picture. I have specific implementations in mind, but want to get the conversation going before I get too far.</p>",
+        "id": 18,
+        "sender_full_name": "Jason Kridner",
+        "timestamp": 1774636248
+    },
+    {
+        "content": "<p><a href=\"https://notebooklm.google.com/notebook/39bc47c4-11d8-4a4f-b11d-576df3390b77\">https://notebooklm.google.com/notebook/39bc47c4-11d8-4a4f-b11d-576df3390b77</a></p>",
+        "id": 29,
+        "sender_full_name": "Jason Kridner",
+        "timestamp": 1774645265
+    },
+    {
+        "content": "<p><a href=\"https://notebooklm.google.com/notebook/39bc47c4-11d8-4a4f-b11d-576df3390b77?artifactId=c516b283-af96-43af-a2ec-66ea6616933d\">https://notebooklm.google.com/notebook/39bc47c4-11d8-4a4f-b11d-576df3390b77?artifactId=c516b283-af96-43af-a2ec-66ea6616933d</a></p>",
+        "id": 30,
+        "sender_full_name": "Jason Kridner",
+        "timestamp": 1774645279
+    },
+    {
+        "content": "<p><a href=\"https://docs.google.com/presentation/d/1zoeP4X4O91IsF9nrZq1YABB3Ei5Bs-mJDBYjrLu6xkw/edit?usp=sharing\">https://docs.google.com/presentation/d/1zoeP4X4O91IsF9nrZq1YABB3Ei5Bs-mJDBYjrLu6xkw/edit?usp=sharing</a></p>",
+        "id": 31,
+        "sender_full_name": "Jason Kridner",
+        "timestamp": 1774645513
+    },
+    {
+        "content": "<p><span class=\"user-mention\" data-user-id=\"10\">@Ayush Singh</span> do you think you could prototype a Zepto demo with BeaglePlay (lvgl so we can move easily to BeagleBadge) where is is a user/controller for BattleSnake? I think an AI could make a reasonable prototype.</p>",
+        "id": 35,
+        "sender_full_name": "Jason Kridner",
+        "timestamp": 1774669661
+    }
+]

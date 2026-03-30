@@ -1,0 +1,14 @@
+[
+    {
+        "content": "<p><strong>Public</strong> channel created by <span class=\"user-mention silent\" data-user-id=\"8\">Jason Kridner</span>. <strong>Description:</strong></p>\n<blockquote>\n<p>the art, science, and craft of teaching, encompassing the strategies, methods, and theories used to facilitate learning and support student development</p>\n</blockquote>",
+        "id": 45,
+        "sender_full_name": "Notification Bot",
+        "timestamp": 1774706859
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"8\">Jason Kridner</span> changed the <a href=\"/help/channel-permissions\">access permissions</a> for this channel from <strong>Public</strong> to <strong>Web-public</strong>.</p>",
+        "id": 90,
+        "sender_full_name": "Notification Bot",
+        "timestamp": 1774887357
+    }
+]

@@ -1,0 +1,110 @@
+[
+    {
+        "content": "<p>So I have 2 PocketBeagle 2 Industrial. <span class=\"user-mention\" data-user-id=\"8\">@Jason Kridner</span> If there are any urgent asks for the board, feel free to inform me.</p>",
+        "id": 70,
+        "sender_full_name": "Ayush Singh",
+        "timestamp": 1774879578
+    },
+    {
+        "content": "<p><span class=\"user-mention\" data-user-id=\"12\">@Robert Nelson</span> are we good on an image? <span class=\"user-mention\" data-user-id=\"10\">@Ayush Singh</span> will bb-imager-rs directly program the flash?</p>",
+        "id": 71,
+        "sender_full_name": "Jason Kridner",
+        "timestamp": 1774879649
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"8\">Jason Kridner</span> <a href=\"#narrow/channel/3-general/topic/Have.20a.20PB2.20Industrial.20Now/near/71\">said</a>:</p>\n<blockquote>\n<p><span class=\"user-mention silent\" data-user-id=\"12\">Robert Nelson</span> are we good on an image? <span class=\"user-mention silent\" data-user-id=\"10\">Ayush Singh</span> will bb-imager-rs directly program the flash?</p>\n</blockquote>\n<p>Should be possible with u-boot DFU. I can test it out.</p>",
+        "id": 72,
+        "sender_full_name": "Ayush Singh",
+        "timestamp": 1774879686
+    },
+    {
+        "content": "<p>Should I make a new board in upstream zephyr for it?</p>",
+        "id": 73,
+        "sender_full_name": "Ayush Singh",
+        "timestamp": 1774879731
+    },
+    {
+        "content": "<p>yes, please.</p>",
+        "id": 74,
+        "sender_full_name": "Jason Kridner",
+        "timestamp": 1774883331
+    },
+    {
+        "content": "<p><a href=\"https://www.beagleboard.org/boards/pocketbeagle-2-industrial\">https://www.beagleboard.org/boards/pocketbeagle-2-industrial</a></p>",
+        "id": 75,
+        "sender_full_name": "Jason Kridner",
+        "timestamp": 1774883350
+    },
+    {
+        "content": "<p>Yes latest image supports both boards..</p>",
+        "id": 76,
+        "sender_full_name": "Robert Nelson",
+        "timestamp": 1774883397
+    },
+    {
+        "content": "<p>What do I need to do for the MSPM0 right now?</p>",
+        "id": 77,
+        "sender_full_name": "Jason Kridner",
+        "timestamp": 1774883422
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"8\">Jason Kridner</span> <a href=\"#narrow/channel/3-general/topic/Have.20a.20PB2.20Industrial.20Now/near/77\">said</a>:</p>\n<blockquote>\n<p>What do I need to do for the MSPM0 right now?</p>\n</blockquote>\n<p>MSPM0 on Zephyr?</p>",
+        "id": 78,
+        "sender_full_name": "Ayush Singh",
+        "timestamp": 1774883585
+    },
+    {
+        "content": "<p>update the ci to newer sdk to fix the eeprom emulation for one..</p>",
+        "id": 79,
+        "sender_full_name": "Robert Nelson",
+        "timestamp": 1774883764
+    },
+    {
+        "content": "<p>I think Walter was going to look. Let me see what the repo has.</p>",
+        "id": 80,
+        "sender_full_name": "Jason Kridner",
+        "timestamp": 1774883817
+    },
+    {
+        "content": "<p>i've ordered the sdk so so i can test 1108 builds..</p>",
+        "id": 81,
+        "sender_full_name": "Robert Nelson",
+        "timestamp": 1774883844
+    },
+    {
+        "content": "<p>You mean Starter Kit? Hope they haven't started charging for the SDK. ;-)</p>",
+        "id": 82,
+        "sender_full_name": "Jason Kridner",
+        "timestamp": 1774883870
+    },
+    {
+        "content": "<p>yeah the starter kit</p>",
+        "id": 83,
+        "sender_full_name": "Robert Nelson",
+        "timestamp": 1774883883
+    },
+    {
+        "content": "<p>Executable SDK?!? Ugh. I am getting sick of TI stupidity.</p>",
+        "id": 84,
+        "sender_full_name": "Jason Kridner",
+        "timestamp": 1774883993
+    },
+    {
+        "content": "<p>only 402MB. :-/</p>",
+        "id": 85,
+        "sender_full_name": "Jason Kridner",
+        "timestamp": 1774884057
+    },
+    {
+        "content": "<p>i'm planning to do a release by release update, so we don't break anyting</p>",
+        "id": 86,
+        "sender_full_name": "Robert Nelson",
+        "timestamp": 1774884864
+    },
+    {
+        "content": "<p>Well, if <span class=\"user-mention\" data-user-id=\"8\">@Jason Kridner</span> wants it, I can rewrite the mspm0 firmware in Zephyr now. While Flash, ADC and I2C are not merged in upstream Zephyr yet, the PRs exist now, so we can use a custom Zephyr tree for it.</p>",
+        "id": 87,
+        "sender_full_name": "Ayush Singh",
+        "timestamp": 1774885621
+    }
+]

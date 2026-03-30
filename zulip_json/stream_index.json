@@ -1,0 +1,99 @@
+{
+    "streams": {
+        "Northville": {
+            "id": 4,
+            "latest_id": 35,
+            "topic_data": {
+                "\"Interactor\" concept": {
+                    "latest_date": 1774669661,
+                    "size": 5
+                },
+                "channel events": {
+                    "latest_date": 1772805947,
+                    "size": 1
+                }
+            }
+        },
+        "Pedagogy": {
+            "id": 5,
+            "latest_id": 90,
+            "topic_data": {
+                "BattleSnake and Interactor": {
+                    "latest_date": 1774741030,
+                    "size": 10
+                },
+                "Lesson Plans - what, how and why?": {
+                    "latest_date": 1774801654,
+                    "size": 6
+                },
+                "channel events": {
+                    "latest_date": 1774887357,
+                    "size": 2
+                }
+            }
+        },
+        "Zulip": {
+            "id": 1,
+            "latest_id": 12,
+            "topic_data": {
+                "moving messages": {
+                    "latest_date": 1772805473,
+                    "size": 2
+                },
+                "welcome to Zulip!": {
+                    "latest_date": 1772805474,
+                    "size": 3
+                }
+            }
+        },
+        "general": {
+            "id": 3,
+            "latest_id": 93,
+            "topic_data": {
+                "BeagleConnect single-pair Ethernet concept": {
+                    "latest_date": 1774667618,
+                    "size": 3
+                },
+                "Getting started with BattleSnake": {
+                    "latest_date": 1774710380,
+                    "size": 10
+                },
+                "Have a PB2 Industrial Now": {
+                    "latest_date": 1774885621,
+                    "size": 18
+                },
+                "Server updates": {
+                    "latest_date": 1774900285,
+                    "size": 4
+                },
+                "channel events": {
+                    "latest_date": 1774887340,
+                    "size": 1
+                },
+                "greetings": {
+                    "latest_date": 1774646864,
+                    "size": 7
+                },
+                "new channels": {
+                    "latest_date": 1774706859,
+                    "size": 2
+                }
+            }
+        },
+        "sandbox": {
+            "id": 2,
+            "latest_id": 7,
+            "topic_data": {
+                "experiments": {
+                    "latest_date": 1772805473,
+                    "size": 2
+                },
+                "start a conversation": {
+                    "latest_date": 1772805473,
+                    "size": 3
+                }
+            }
+        }
+    },
+    "time": 1774903439.4961946
+}
