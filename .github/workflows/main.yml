@@ -19,4 +19,4 @@ jobs:
         # (no setup needed).
         github_token: ${{ secrets.GITHUB_TOKEN }}
         delete_history: true
-        archive_branch: main
+        archive_branch: pages
