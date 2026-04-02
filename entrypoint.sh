@@ -102,10 +102,6 @@ python3 archive.py -b
 
 cd ${checked_out_repo_path}
 
-git remote update
-
-git checkout $archive_branch
-
 git fetch origin
 
 current_sha="$(git rev-parse origin/${archive_branch})"
